@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027984A414168BA600A134EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027984A314168BA600A134EE /* UIKit.framework */; };
+		027984A614168BA600A134EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027984A514168BA600A134EE /* Foundation.framework */; };
+		027984A814168BA600A134EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027984A714168BA600A134EE /* CoreGraphics.framework */; };
+		027984AE14168BA600A134EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 027984AC14168BA600A134EE /* InfoPlist.strings */; };
+		027984B014168BA600A134EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 027984AF14168BA600A134EE /* main.m */; };
+		027984B414168BA600A134EE /* FoundationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 027984B314168BA600A134EE /* FoundationAppDelegate.m */; };
+		027984B714168BA600A134EE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027984B514168BA600A134EE /* MainWindow.xib */; };
+		027984BA14168BA600A134EE /* FoundationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027984B914168BA600A134EE /* FoundationViewController.m */; };
+		027984BD14168BA600A134EE /* FoundationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027984BB14168BA600A134EE /* FoundationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0279849F14168BA600A134EE /* Foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		027984A314168BA600A134EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		027984A514168BA600A134EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		027984A714168BA600A134EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		027984AB14168BA600A134EE /* Foundation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Foundation-Info.plist"; sourceTree = "<group>"; };
+		027984AD14168BA600A134EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		027984AF14168BA600A134EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		027984B114168BA600A134EE /* Foundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foundation-Prefix.pch"; sourceTree = "<group>"; };
+		027984B214168BA600A134EE /* FoundationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundationAppDelegate.h; sourceTree = "<group>"; };
+		027984B314168BA600A134EE /* FoundationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoundationAppDelegate.m; sourceTree = "<group>"; };
+		027984B614168BA600A134EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		027984B814168BA600A134EE /* FoundationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundationViewController.h; sourceTree = "<group>"; };
+		027984B914168BA600A134EE /* FoundationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoundationViewController.m; sourceTree = "<group>"; };
+		027984BC14168BA600A134EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FoundationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0279849C14168BA600A134EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027984A414168BA600A134EE /* UIKit.framework in Frameworks */,
+				027984A614168BA600A134EE /* Foundation.framework in Frameworks */,
+				027984A814168BA600A134EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0279849414168BA600A134EE = {
+			isa = PBXGroup;
+			children = (
+				027984A914168BA600A134EE /* Foundation */,
+				027984A214168BA600A134EE /* Frameworks */,
+				027984A014168BA600A134EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		027984A014168BA600A134EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0279849F14168BA600A134EE /* Foundation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		027984A214168BA600A134EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				027984A314168BA600A134EE /* UIKit.framework */,
+				027984A514168BA600A134EE /* Foundation.framework */,
+				027984A714168BA600A134EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		027984A914168BA600A134EE /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				027984B214168BA600A134EE /* FoundationAppDelegate.h */,
+				027984B314168BA600A134EE /* FoundationAppDelegate.m */,
+				027984B514168BA600A134EE /* MainWindow.xib */,
+				027984B814168BA600A134EE /* FoundationViewController.h */,
+				027984B914168BA600A134EE /* FoundationViewController.m */,
+				027984BB14168BA600A134EE /* FoundationViewController.xib */,
+				027984AA14168BA600A134EE /* Supporting Files */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		027984AA14168BA600A134EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				027984AB14168BA600A134EE /* Foundation-Info.plist */,
+				027984AC14168BA600A134EE /* InfoPlist.strings */,
+				027984AF14168BA600A134EE /* main.m */,
+				027984B114168BA600A134EE /* Foundation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0279849E14168BA600A134EE /* Foundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027984C014168BA600A134EE /* Build configuration list for PBXNativeTarget "Foundation" */;
+			buildPhases = (
+				0279849B14168BA600A134EE /* Sources */,
+				0279849C14168BA600A134EE /* Frameworks */,
+				0279849D14168BA600A134EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foundation;
+			productName = Foundation;
+			productReference = 0279849F14168BA600A134EE /* Foundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0279849614168BA600A134EE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0279849914168BA600A134EE /* Build configuration list for PBXProject "Foundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0279849414168BA600A134EE;
+			productRefGroup = 027984A014168BA600A134EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0279849E14168BA600A134EE /* Foundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0279849D14168BA600A134EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027984AE14168BA600A134EE /* InfoPlist.strings in Resources */,
+				027984B714168BA600A134EE /* MainWindow.xib in Resources */,
+				027984BD14168BA600A134EE /* FoundationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0279849B14168BA600A134EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027984B014168BA600A134EE /* main.m in Sources */,
+				027984B414168BA600A134EE /* FoundationAppDelegate.m in Sources */,
+				027984BA14168BA600A134EE /* FoundationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		027984AC14168BA600A134EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				027984AD14168BA600A134EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		027984B514168BA600A134EE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				027984B614168BA600A134EE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		027984BB14168BA600A134EE /* FoundationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				027984BC14168BA600A134EE /* en */,
+			);
+			name = FoundationViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		027984BE14168BA600A134EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		027984BF14168BA600A134EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		027984C114168BA600A134EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foundation/Foundation-Prefix.pch";
+				INFOPLIST_FILE = "Foundation/Foundation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		027984C214168BA600A134EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foundation/Foundation-Prefix.pch";
+				INFOPLIST_FILE = "Foundation/Foundation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0279849914168BA600A134EE /* Build configuration list for PBXProject "Foundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027984BE14168BA600A134EE /* Debug */,
+				027984BF14168BA600A134EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		027984C014168BA600A134EE /* Build configuration list for PBXNativeTarget "Foundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027984C114168BA600A134EE /* Debug */,
+				027984C214168BA600A134EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0279849614168BA600A134EE /* Project object */;
+}
